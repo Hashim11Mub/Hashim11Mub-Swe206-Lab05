@@ -1,4 +1,4 @@
-public class App {
+public class Sorter {
     public static void main(String[] args) throws Exception {
         System.out.println("Hello, World!");
         int[] arr1 = { 9, 14, 3, 2, 43, 11, 58, 22 };
@@ -16,6 +16,10 @@ public class App {
             System.out.print(i + " ");
         }
 
+    }
+
+    private static void sort(int[] arr1) {
+        selectionSort(arr1);
     }
 
     public static void selectionSort(int[] arr) {
