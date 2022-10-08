@@ -9,6 +9,7 @@ public class Sorter {
         System.out.println();
 
         selectionSort(arr1);// sorting array using selection sort
+        sort(arr1);
 
         System.out.println("After Selection Sort");
         for (int i : arr1) {
@@ -29,6 +30,9 @@ public class Sorter {
             arr[index] = arr[i];
             arr[i] = smallerNumber;
         }
+    }
+    public static void sort(int[] array) {
+        selectionSort(array);
     }
    
 }
