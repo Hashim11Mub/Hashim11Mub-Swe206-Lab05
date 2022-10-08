@@ -1,4 +1,4 @@
-public class Sorter {
+public class App {
     public static void main(String[] args) throws Exception {
         System.out.println("Hello, World!");
         int[] arr1 = { 9, 14, 3, 2, 43, 11, 58, 22 };
@@ -30,9 +30,6 @@ public class Sorter {
             arr[index] = arr[i];
             arr[i] = smallerNumber;
         }
-    }
-    public static void sort(int[] array) {
-        selectionSort(array);
     }
    
 }
